@@ -7,40 +7,52 @@
 </head>
 <body>
   <div class="container">
-    <!-- <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#"></a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
-      </ul>
-    </nav> -->
     <div class="row">
-      <div class="col-md-8">
-        <h1>Christopher Neal</h1>
+      <div class="col-md-8 padding-right">
+        <h1 class="heading" aria-label="Christopher Neal's programming portfolio">Christopher Neal</h1>
         <h2 class="sr-only" id="summary">Summary</h2>
-        <p class="subhead">Junior Full Stack Engineer</p>
-        <p class="note">Resourceful, driven Junior Developer transitioning from kitchen management. Looking to bring my love for innovative problem solving and unique perspective to a new team.</p>
+        <h3 class="subhead">Junior Full Stack Engineer</h3>
+        <p class="objective">Resourceful, driven Junior Developer transitioning from kitchen management. Looking to bring my love for innovative problem solving and unique perspective to a new team.</p>
       </div>
       <div class="col-md-4">
         <h2 class="sr-only" id="contact">Contact Information</h2>
-        <p class="mono">phone: (850) 485-1398<br>
-          email: <a href="mailto:christopher.m.neal@gmail.com">christopher.m.neal@gmail.com</a><br>
-          linkedin: <a href="https://www.linkedin.com/in/christophermneal/">linkedin.com/in/christophermneal/</a><br>
-          github: <a href="https://github.com/ChristopherMNeal">github.com/christophermneal</a></p>
+        <!-- <ul class="mono no-bullet" aria-label="contact info">
+          <li>phone: <span class="bold">(850) 485-1398</span></li>
+          <li>email: <a href="mailto:christopher.m.neal@gmail.com"><span class="bold">christopher.m.neal@gmail.com</span></a></li>
+          <li>linkedin: <a href="https://www.linkedin.com/in/christophermneal/"><span class="bold">linkedin.com/in/christophermneal</span></a></li>
+          <li>github: <a href="https://github.com/ChristopherMNeal"><span class="bold">github.com/christophermneal</span></a></li>
+        </ul> -->
+        <table>
+          <tr>
+            <td>phone:</td>
+            <td><span class="bold">(850) 485-1398</span></td>
+          </tr>
+          <tr>
+            <td>email:</td>
+            <td><a href="mailto:christopher.m.neal@gmail.com"><span class="bold">christopher.m.neal@gmail.com</span></a></td>
+          </tr>
+          <tr>
+            <td>linkedin:</td>
+            <td><a href="https://www.linkedin.com/in/christophermneal/"><span class="bold">linkedin.com/in/christophermneal</span></a></td>
+          </tr>
+          <tr>
+            <td>github:</td>
+            <td><a href="https://github.com/ChristopherMNeal"><span class="bold">github.com/christophermneal</span></a></td>
+          </tr>
+        </table>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8">
-        <h2 class="h2" id="experience">Experience</h2>
-        <h3><span class="business">Planet Argon </span><span class="place">Portland, OR </span><span class="position">Ruby on Rails Intern </span></h3>
+      <div class="col-md-8 padding-right">
+        <h2 class="heading" id="experience">Experience</h2>
+        <h3><span class="business"><a href="https://www.planetargon.com/">Planet Argon</a> </span><span class="place">Portland, OR </span><span class="position">Ruby on Rails Intern </span></h3>
         <p class="date">March 2022 - May 2022</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Maintained and developed client-side and internal projects.</li>
         </ul>
-        <h3><span class="business">Le Pigeon </span><span class="place">Portland, OR </span><span class="position">Chef de Cuisine </span></h3>
+        <h3><span class="business"><a href="https://lepigeon.com/">Le Pigeon</a> </span><span class="place">Portland, OR </span><span class="position">Chef de Cuisine </span></h3>
         <p class="date">June 2011 - October 2021</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Executed and oversaw high-end cooking and food presentation in an always-busy, 33-seat restaurant, consistently top-rated in the region.</li>
           <li>Managed a staff of 10: oversaw all food preparation for quality and to ensure on-time completion, while maintaining a labor cost under 25%.</li>
           <li>Developed creative and exceptional dishes and cooking techniques within the unique requirements and restrictions of the restaurant.</li>
@@ -49,33 +61,33 @@
           <li>Managed allergies with care and professionalism for customer safety.</li>
           <li>Trained and mentored new employees and interns in cooking.</li>
         </ul>
-        <h3><span class="business">OutsideIn </span><span class="place">Portland, OR </span><span class="position">Volunteer GED Tutor </span></h3>
+        <h3><span class="business"><a href="https://outsidein.org/">OutsideIn</a> </span><span class="place">Portland, OR </span><span class="position">Volunteer GED Tutor </span></h3>
         <p class="date">June 2015 - November 2016</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Distilled and explained complex math lessons to students.</li>
           <li>Provided homeless youths with fresh cooked meals using donated food.</li>
         </ul>
-        <h3><span class="business">SE Works </span><span class="place">Portland, OR </span><span class="position">Volunteer ESL Tutor </span></h3>
+        <h3><span class="business"><a href="https://seworks.org/">SE Works</a> </span><span class="place">Portland, OR </span><span class="position">Volunteer ESL Tutor </span></h3>
         <p class="date">February 2014 - April 2016</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Tutored adult ESL students in hour-long, one-on-one sessions.</li>
         </ul>
-        <h2 class="h2" id="education">Education</h2>
-        <h3><span class="business">Epicodus </span><span class="place">Portland, OR </span><span class="position">Full Stack Certificate </span></h3>
+        <h2 class="heading" id="education">Education</h2>
+        <h3><span class="business"><a href="https://www.epicodus.com/">Epicodus</a> </span><span class="place">Portland, OR </span><span class="position">Full Stack Certificate </span></h3>
         <p class="date">October 2021 - April 2022</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Completed a full-time, 27-week program in web and open source development focusing on JavaScript, Ruby/Rails, and React.</li>
           <li>Published over 100 projects to GitHub, including 13 weekly code review projects, two team week projects, and a 40+ hour independent capstone.</li>
         </ul>
-        <h3><span class="business">University of Florida </span><span class="place">Gainesville, FL </span><span class="position">Linguistics Bachelor's of Science </span></h3>
+        <h3><span class="business"><a href="https://lin.ufl.edu/">University of Florida</a> </span><span class="place">Gainesville, FL </span><span class="position">Linguistics Bachelor's of Science </span></h3>
         <p class="date">August 2008 - June 2010</p>
-        <ul>
+        <ul class="xp-bullet">
           <li>Linguistics major, English minor, TESL Certificate</li>
         </ul>
       </div>
       <div class="col-md-4">
-        <h2 class="h2" id="skills">Skills</h2>
-        <ul class="skill-list">
+        <h2 class="heading" id="skills">Skills</h2>
+        <ul class="no-bullet skill-list">
           <li>HTML, CSS, Bootstrap</li>
           <li>JavaScript ES6+,  jQuery, Jest</li>
           <li>Ruby /  Rails</li>
@@ -84,7 +96,7 @@
           <li>MySQL, Postgres, Firebase</li>
           <li>Rspec, Capybara</li>
         </ul>
-        <h2 class="h2" id="Projects">Projects</h2>
+        <h2 class="heading" id="Projects">Projects</h2>
         <h3 class="project">Curb Alert</h3>
         <p>Post and claim free housewares<br>
         React Native, Firestore<br>
