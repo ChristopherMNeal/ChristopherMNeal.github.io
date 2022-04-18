@@ -1,0 +1,86 @@
+body {
+  color: #333;
+  padding: 4vh 8%;
+  text-align:justify;
+}
+
+.mono {
+  /* font-family: monospace; */
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.sr-only {
+  display: none;
+}
+
+.padding-right {
+  padding-right: 50px;
+}
+
+.no-bullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.xp-bullet {
+  padding-left: 0;
+  margin-left: 15px;
+  list-style-type: circle;
+}
+
+.date {
+  font-weight: 300;
+  font-variant-caps: all-small-caps;
+  margin-bottom: 0;
+}
+
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.business {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.place {
+  font-variant-caps: all-small-caps;
+  font-weight: 400;
+}
+
+.position {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold {
+  font-weight:750;
+}
+
+table, th, td {
+  border:none;
+  /* padding-right:3px; */
+  padding: 0 5px 1px 0;
+}
+
+.subhead {
+  font-size: 16pt;
+  font-variant-caps: all-small-caps;
+  margin-bottom: 0;
+}
+
+.objective {
+  
+}
