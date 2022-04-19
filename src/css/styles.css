@@ -4,10 +4,6 @@ body {
   text-align:justify;
 }
 
-.mono {
-  /* font-family: monospace; */
-}
-
 a {
   color: #333;
   text-decoration: none;
@@ -47,17 +43,32 @@ a:hover {
 .heading {
   text-transform: uppercase;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 2px;
+  font-weight: 700;
 }
 
-.business {
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.business, .project {
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .place {
-  font-variant-caps: all-small-caps;
-  font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.4rem
 }
 
 .position {
@@ -81,6 +92,9 @@ table, th, td {
   margin-bottom: 0;
 }
 
-.objective {
-  
+.icon {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin: 5px 5px 0 0;
 }
